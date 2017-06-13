@@ -1,0 +1,276 @@
+*{
+  font-family:"Myriad Pro", "Trebuchet MS", "sans-serif";
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+.container-fluid{
+  padding-left:0;
+  padding-right:0;
+}
+
+ul{
+  list-style:none;
+}
+
+.entirebar{
+  background:#000;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:30;
+}
+
+.description{
+  color:#0B75AF;
+  font-size:11px;
+  text-decoration:none;
+}
+
+a{
+  text-decoration:none;
+  color:#fff;
+  outline:none;
+}
+
+.subbar{
+  float:left;
+  width:180px;
+}
+
+
+.maintext{
+  color:#fff;
+  font-size:16px;
+}
+
+nav div ul{
+  text-align:center;
+  padding:0 350px 5px 350px;
+}
+
+a:visited, a:link{
+  text-decoration:none;
+  color:#fff;
+}
+
+a:hover{
+  text-decoration:none;
+  color:#D8D8D8;
+  text-decoration:none;
+  background-color:#585858;
+}
+
+.subbar:active{
+  color:#D8D8D8;
+  text-decoration:none;
+  background-color:#DF0101;
+  margin-top:20px;
+}
+
+.subbar{
+  padding-top:10px;
+}
+
+.pp-title{
+  background:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1495689203457&di=37d12667c36045ceabb2e789d16e5d52&imgtype=0&src=http%3A%2F%2Fimage.tupian114.com%2F20140322%2F16101204.jpg) no-repeat;
+  background-size:cover;
+  height:500px;
+  padding:90px 0 0 0;
+  position:relative;
+  right:0;
+  left:-10px;
+  right:-10px;
+  margin:0;
+  z-index:-1;
+  left:0;
+  height:500px;
+}
+
+.a-title{
+  color:white;
+  text-shadow:0 0 5px #000;
+}
+
+.subtit{
+  color:white;
+  text-shadow:0 0 5px #000;
+}
+
+.hehehe{
+  background-color:white;
+  height:2px;
+  width:420px;
+  text-align:center;
+  position:relative;
+  top:-2px;
+  left:495px;
+}
+
+.aboutsect{
+  background-color:#2E2E2E;
+  background-size:cover;
+}
+
+.aboutsubsect{
+  color:#fff;
+  margin:60px;
+  position:relative;
+}
+
+.bfimg1{
+  height:250px;
+  width:360px;
+  opacity:1;
+  margin=0;
+  padding=0;
+  float:left;
+  position:relative;
+  left:0;
+  right:0;
+}
+
+.endend{
+  clear:both;
+}
+
+.portfoliosect{
+  position:relative;
+  left:0;
+  top:0;
+}
+
+.textonimg,.bfimg1:hover{
+  opacity:0.8;
+  transition-property: opacity;
+	transition-duration: 0.8s;
+	transition-timing-function: ease-in;
+	transition-delay: 0;
+}
+
+.ctitle{
+  font-size:30px;
+  color:#fff;
+  text-shadow:-2px -1px 5px #A4A4A4;
+}
+
+.in1{
+  position:relative;
+  left:50px;
+  color:#A4A4A4;
+}
+
+.in2{
+  position:relative;
+  left:50px;
+  color:#A4A4A4;
+}
+
+.in3{
+  position:relative;
+  left:70px;
+  bottom:135px;
+  color:#A4A4A4;
+}
+
+.content1{
+  width:336px;
+  height:45px;
+}
+
+.content2{
+  width:336px;
+  height:45px;
+}
+
+.content3{
+  width:680px;
+  height:159px;
+}
+
+.out1{
+  position:relative;
+  left:18px;
+}
+
+.out2{
+  position:relative;
+  left:-24px;
+}
+
+.out3{
+  position:relative;
+  top:7px;
+}
+
+.out4{
+  position:relative;
+  left:310px;
+}
+
+.outout{
+  position:relative;
+  left:250px;
+}
+
+input,textarea{
+  border-radius:3px;
+  border:1px solid #A4A4A4;
+}
+
+button{
+  width:200px;
+  height:50px;
+  border-radius:20px;
+  background-color:black;
+  border:1px solid #A4A4A4; 
+  color:#fff;
+}
+
+.contactsect{
+  background-color:#000;
+  padding:70px;
+}
+
+button:hover{
+  border:3px solid #A4A4A4; 
+  transition-property: border;
+	transition-duration: 0.1s;
+	transition-timing-function: ease-in;
+	transition-delay: 0;
+}
+
+.credit{
+  font-size:11px;
+  background-color:#D8D8D8;
+  margin:0;
+}
+
+.textonimg{
+  z-index:15;
+  position:absolute;
+  text-align:text-center;
+  font-size:50px;
+  top:90px;
+  left:55px;
+  text-shadow:0 0 3px #000;
+}
+
+.resumesect{
+  margin:50px;
+}
+
+.exper-subsect{
+  list-style-type:circle;
+  text-align:left;
+}
+
+footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
